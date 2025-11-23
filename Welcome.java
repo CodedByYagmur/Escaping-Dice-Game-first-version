@@ -86,7 +86,7 @@ class Welcome {
                     }
                 }
 
-                // Kullanıcı "kaçamayacağım" demişti
+                
                 if (!escaped) {
                     System.out.println("Your guess was correct → YOU WIN!");
                 } else {
@@ -94,7 +94,7 @@ class Welcome {
                 }
             }
 
-            // ---- PLAY AGAIN? ----
+            // ---- ASK THE USER TO PLAY AGAIN? ----
             System.out.println("Do you want to play again? (1 = Yes, 0 = No)");
             playAgain = input.nextInt();
 
@@ -104,3 +104,4 @@ class Welcome {
         System.out.println("Game closed. See you later :(");
     }
 }
+
