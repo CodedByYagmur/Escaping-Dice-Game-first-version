@@ -1,7 +1,7 @@
 package demo2;
 import java.util.Scanner;
 
-class Welcome {
+class GuessTheDice {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -104,4 +104,5 @@ class Welcome {
         System.out.println("Game closed. See you later :(");
     }
 }
+
 
